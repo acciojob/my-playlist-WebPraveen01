@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+*{
+  list-style: none;
+  text-decoration-line: none
+}
+h1,h2{
+  text-align: center;
+}
+
+body{
+  background-color: rgb(204, 204, 204)
+}
+.player_one{
+  background-color: rgb(255, 255, 255);
+ border: 1px solid black;
+ border-radius: 5px;
+ paddin:30px
+ height: 500px;
+ width: 700px;
+ margin: 40px;
+}
+.player_two{
+  width: 500px;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+
+.playlistbox{
+ background-color: rgb(255, 255, 255);
+ height: 150px;
+ width: 700px;
+ margin: 40px;
+ border:1px solid  black;
+  border-radius: 5px;
+}
